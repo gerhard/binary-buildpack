@@ -2,7 +2,7 @@
 
 if [ -x $1/web ]
 then
-  echo "StaticWebBinary"
+  echo "StaticBinary"
   exit 0
 else
   exit 1

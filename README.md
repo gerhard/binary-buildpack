@@ -12,8 +12,8 @@ This buildpack also contains a web binary which can be used as an
 example. To use this buildpack, after git cloning it, run the following:
 
 ```sh
-cf create-buildpack binary_web_buildpack binary-web-buildpack 1
-cd binary-web-buildpack
+cf create-buildpack binary_buildpack binary-buildpack 1
+cd binary-buildpack
 cf push static-go
 curl static-go.10.244.0.34.xip.io # if deploying to bosh-lite
 ```
